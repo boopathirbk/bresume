@@ -38,9 +38,9 @@ Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
 
 This project utilizes a **Serverless Static Architecture**:
 
--   **Hosting**: GitHub Pages.
--   **CDN**: Global asset distribution via GitHub's edge network.
--   **Security**: Enforced HTTPS/TLS.
+-   **Hosting**: js.org (via Pull Request).
+-   **CDN**: Cloudflare Global Network (shielding GitHub Pages).
+-   **Security**: Enforced HTTPS (SSL termination via Cloudflare).
 
 ## 🔒 Copyright & Rights
 
