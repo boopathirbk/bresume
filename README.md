@@ -34,38 +34,30 @@ Includes a dedicated Accessibility Widget (`Alt+A` or Floating Button) offering:
 - **Fonts**: 'Inter' and 'Outfit' via Google Fonts.
 - **Data**: Separation of concerns via `data.js` for easy content updates.
 
-## 🚀 Deployment
+## 🚀 Build & Deployment Architecture
 
-This project is designed for static hosting.
+This project utilizes a **Serverless Static Architecture** hosted on GitHub Pages.
 
-### GitHub Pages (Recommended)
-1. Fork this repository.
-2. Go to **Settings** > **Pages**.
-3. Select `main` branch as source.
-4. Your site will be live at `https://<username>.github.io/<repo-name>/`.
-
-### Local Development
-No build steps required. Just serve the files:
-
-```bash
-# Using Python
-python -m http.server 8080
-
-# Using Node (http-server)
-npx http-server .
-```
+-   **Hosting**: GitHub Pages (Static Hosting)
+-   **CI/CD**: Automatic deployment via GitHub Actions on push to `main`.
+-   **CDN**: Assets are optimized and served via GitHub's global CDN.
+-   **Security**: Enforced HTTPS and no server-side surface area.
 
 ## 📁 Project Structure
 
 ```
 ├── index.html       # Semantic DOM structure
 ├── style.css        # Global styles & Design Tokens
-├── script.js        # Logic (Theme, A11y, Rendering)
-├── data.js          # Content Source (Edit this!)
-└── README.md        # Documentation
+├── script.js        # Core Logic (Theming, A11y, State)
+├── data.js          # Structured Content (JSON-like)
+└── README.md        # Architecture Documentation
 ```
 
-## 📝 License
+## � License & Usage
 
-This project is open-source and available under the MIT License.
-Crafted with ❤️ by **Boopathi R**.
+**Copyright © 2025 Boopathi R. All Rights Reserved.**
+
+This repository contains the personal portfolio and proprietary code of Boopathi R.
+-   **Purpose**: This code is published for the sole purpose of demonstrating my technical skills and architectural capabilities to prospective employers and clients.
+-   **Restrictions**: You may **not** use, host, distribute, or modify this code (in part or in whole) for any commercial or non-commercial purpose without explicit written permission.
+-   **Content**: All resume data, biographical text, and images are strictly protected.
