@@ -1,63 +1,51 @@
 # Boopathi R - Visionary Developer Portfolio
 
-![License](https://img.shields.io/badge/license-Proprietary-red.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
+![Status](https://img.shields.io/badge/status-live-success.svg)
 ![Accessibility](https://img.shields.io/badge/accessibility-WCAG_2.1_AA-green.svg)
+![Tech](https://img.shields.io/badge/tech-Vanilla_JS-yellow.svg)
 
-A high-performance, accessible, and aesthetically premium personal portfolio website. Built with **Vanilla JavaScript, HTML5, and CSS3** to ensure maximum speed and minimal resource usage.
+This repository houses the source code for my personal portfolio website. It serves as a live demonstration of my capabilities in **Frontend Architecture, Accessibility Standards, and Performance Optimization**.
 
-## 🌟 Features
+## 🌟 Project Overview
 
-### 🎨 Premium Design
-- **Modern Aesthetic**: Dark/Light mode support with a "Vercel-like" grid design system.
-- **Fluid Reponsiveness**: Mobile-first architecture that scales perfectly to 4K screens.
-- **Micro-Interactions**: Smooth hover states, glowing shadows, and a custom **Spinning Rainbow Border** button.
+Designed to be lightweight and high-performance, this project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic ("Vercel-like" design) and strict accessibility compliance.
 
-### ♿ Advanced Accessibility
-Includes a dedicated Accessibility Widget (`Alt+A` or Floating Button) offering:
-- **Text Resizing**: Granular control over font size.
-- **Grayscale Mode**: For visual processing assistance.
-- **High Contrast**: Neon/Black theme for low-vision users.
-- **Readable Font**: One-click switch to dyslexia-friendly fonts (Arial/Helvetica).
-- **Link Highlighting**: Clear visual indicators for all interactive elements.
-- **Reduce Motion**: Respects system preferences and offers a manual toggle.
+## 💎 Key Features
 
-### ⚡ Performance
-- **Zero Dependencies**: No React, Vue, or jQuery overhead.
-- **Preloaded Assets**: Critical fonts and styles are prioritized.
-- **IntersectionObserver**: Efficient scroll-triggered animations.
+### 🎨 Premium Design System
+- **Modern Aesthetic**: Deep dark mode with subtle grid backgrounds and glowing accents.
+- **Fluid Responsiveness**: A mobile-first architecture that scales seamlessly from phones to 4K displays.
+- **Micro-Interactions**: Custom-built animations, including a unique **Spinning Rainbow Border** button.
 
-## 🛠️ Tech Stack
+### ♿ Advanced Accessibility Suite
+Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
+- **Granular Control**: Text resizing, grayscale mode, and high-contrast themes.
+- **Cognitive Load**: "Readable Font" mode and motion reduction settings.
+- **Navigation**: Full keyboard support with visible focus states.
 
-- **Core**: HTML5, CSS3 (Variables + Flexbox/Grid), ES6+ JavaScript.
-- **Icons**: FontAwesome 6 (CDN).
-- **Fonts**: 'Inter' and 'Outfit' via Google Fonts.
-- **Data**: Separation of concerns via `data.js` for easy content updates.
+### ⚡ Technical Performance
+- **Zero Dependencies**: No framework overhead (React/Vue) ensures instant load times.
+- **Optimization**: Critical assets preloaded; intersection observers for efficient scroll rendering.
 
-## 🚀 Build & Deployment Architecture
+## 🛠️ Technology Stack
 
-This project utilizes a **Serverless Static Architecture** hosted on GitHub Pages.
+- **Core**: Semantic HTML5, CSS3 Variables, ES6+ Modules.
+- **Icons**: FontAwesome 6.
+- **Fonts**: 'Inter' and 'Outfit' (Google Fonts).
+- **Architecture**: Static Site Generation (SSG) style data separation (`data.js`).
 
--   **Hosting**: GitHub Pages (Static Hosting)
--   **CI/CD**: Automatic deployment via GitHub Actions on push to `main`.
--   **CDN**: Assets are optimized and served via GitHub's global CDN.
--   **Security**: Enforced HTTPS and no server-side surface area.
+## 🚀 Deployment Architecture
 
-## 📁 Project Structure
+This project utilizes a **Serverless Static Architecture**:
 
-```
-├── index.html       # Semantic DOM structure
-├── style.css        # Global styles & Design Tokens
-├── script.js        # Core Logic (Theming, A11y, State)
-├── data.js          # Structured Content (JSON-like)
-└── README.md        # Architecture Documentation
-```
+-   **Hosting**: GitHub Pages.
+-   **CDN**: Global asset distribution via GitHub's edge network.
+-   **Security**: Enforced HTTPS/TLS.
 
-## � License & Usage
+## 🔒 Copyright & Rights
 
 **Copyright © 2025 Boopathi R. All Rights Reserved.**
 
-This repository contains the personal portfolio and proprietary code of Boopathi R.
--   **Purpose**: This code is published for the sole purpose of demonstrating my technical skills and architectural capabilities to prospective employers and clients.
--   **Restrictions**: You may **not** use, host, distribute, or modify this code (in part or in whole) for any commercial or non-commercial purpose without explicit written permission.
--   **Content**: All resume data, biographical text, and images are strictly protected.
+This codebase is a representation of my professional work and skillset.
+-   **Usage**: The code is publicly visible for educational and evaluation purposes (e.g., for recruiters and technical interviewers).
+-   **Rights**: I retain all rights to the design, content, and implementation. Unauthorized copying, modification, or commercial use is prohibited.
