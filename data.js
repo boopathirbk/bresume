@@ -15,11 +15,27 @@ export const resumeData = {
     },
     story: {
         title: "My Journey",
-        content: `The story starts in 2015 when I joined Computer Science Engineering. Fascinated by the open-source world, I dove deep into Linux and WordPress. During college, I explored everything from React Native to design tools, even building an NFC-based lost baggage retrieval system. 
-        
-        Although I was selected as a Linux Administrator in 2019, I chose to explore freelancing to build fast, AAA-standard, and SEO-friendly websites. I believe in a step-by-step approach to create stable, clean systems.
-        
-        My career path took me through roles as a Web Developer and IT Support Executive, where I honed my skills in MS 365, Azure, and system troubleshooting. I've worked day and night shifts, supported global clients, and now leverage AI and prompt engineering to create open-source innovations.`
+        content: `From the moment I stepped onto a university campus in 2015, I knew technology would shape the rest of my life. Enrolling in a Computer Science Engineering program at Bannari Amman Institute of Technology, I quickly fell in love with the open‑source world. While many of my classmates were busy mastering proprietary tools, I spent evenings tinkering with Linux distributions, exploring the depths of command‑line power, and building my first WordPress sites.
+
+That early fascination with freedom and community led me to experiment with everything—from a React Native prototype for a college project to designing graphics in Adobe’s suite. One of my proudest moments was a NFC‑enabled lost‑baggage retrieval system, a QR‑code‑driven proof‑of‑concept that demonstrated how simple hardware could solve real‑world problems.
+
+Even though I was offered a Linux Administrator role in 2019, I chose a different path. I wanted to keep learning, to stay hands‑on with the myriad tools that make the web vibrant. So I turned freelance, crafting fast, SEO‑friendly WordPress sites for clients worldwide. Those projects taught me the value of speed, stability, and clean code—principles that still guide every line I write today.
+
+In 2021, financial realities nudged me back into a full‑time role as a Website Developer and IT Support Executive. At RSJ Inspection Service Ltd., I managed a four‑person IT team, built lead‑generating websites, and introduced AI prompting (Gemini 2.5 Pro, Claude, Llama) to automate design and content creation. I also administered Microsoft 365 and Azure AD, ensuring the whole organization stayed productive and secure.
+
+Life threw another curveball in 2023 when my mother fell ill. I left the job to care for family, and shortly after, I joined Gamify Studios as a Technical Support Engineer. There I learned the ropes of API testing, staging‑to‑production pipelines, and round‑the‑clock client support across Skype, Telegram, and email. The intensity of day‑and‑night shifts sharpened my problem‑solving instincts and deepened my appreciation for reliable, well‑documented systems.
+
+April 2024 marked a return to RSJ, this time with a stronger focus on AI‑driven development. I began publishing open‑source projects that blend simplicity with power:
+
+Background Verification System – a Bootstrap‑styled PHP app for employers.
+Job‑Listing WordPress Block Plugin – a reusable block that lets recruiters post openings directly from the editor.
+Polar SMTP Mailer – a lightweight WordPress SMTP plugin now under review by the WordPress.org repository.
+APCSA‑approved courses – two full‑stack learning portals built on WordPress, helping professionals prepare for certification exams.
+Most recently I’ve started a quiz‑and‑certification platform for WordPress, aiming to bring affordable, high‑quality assessment tools to anyone who wants to learn.
+
+Beyond the screen, I’m a gardener, a home‑cook, and a daily walker navigating the bustling streets of Bangalore. My balcony hosts mandarin orange trees and a modest vegetable patch—tiny reminders that sustainable habits start at home. I’m also passionate about giving back: I envision a future where my open‑source creations fund environmental initiatives, letting others donate to causes they care about.
+
+Today, I’m searching for the next opportunity that aligns with my core values—open‑source collaboration, fast and accessible web experiences, and a commitment to a greener planet. My story is still being written, but the chapters so far have been guided by curiosity, resilience, and a relentless drive to turn ideas into reality.`
     },
     experience: [
         {
