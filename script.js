@@ -103,8 +103,8 @@ const App = {
                 item.innerHTML = `
                     <div class="role">${exp.role}</div>
                     <div class="company">${exp.company}</div>
-                    <span class="period">${exp.period}</span>
-                    <ul style="list-style-position: inside; color: var(--text-secondary); font-size: 0.95rem;">
+                    <span class="period text-secondary text-sm" style="margin-bottom: 1rem; display: block;">${exp.period}</span>
+                    <ul class="text-secondary" style="list-style-position: inside; font-size: 0.95rem;">
                         ${exp.description.map(d => `<li style="margin-bottom:0.25rem">${d}</li>`).join('')}
                     </ul>
                 `;
@@ -120,7 +120,7 @@ const App = {
                 card.className = 'project-card';
                 card.innerHTML = `
                     <h3 class="project-title">${proj.title}</h3>
-                    <p style="color: var(--text-secondary); font-size: 0.9rem;">${proj.description}</p>
+                    <p class="text-secondary text-sm">${proj.description}</p>
                     <div class="tags">
                         ${proj.tags.map(t => `<span class="tag">${t}</span>`).join('')}
                     </div>

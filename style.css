@@ -377,13 +377,6 @@ header {
     font-weight: 600;
 }
 
-.period {
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-    display: block;
-}
-
 /* Projects Grid */
 .projects-grid {
     display: grid;
@@ -786,21 +779,26 @@ footer {
     margin-top: 2rem;
 }
 
-.text-subtitle {
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+/* Typography Utilities */
+.text-secondary {
     color: var(--text-secondary);
 }
 
-.intro-text {
-    margin-bottom: 2rem;
-    color: var(--text-secondary);
+.text-sm {
+    font-size: 0.9rem;
 }
 
-.footer-info {
-    color: var(--text-secondary);
-    margin-bottom: 0.5rem;
+.text-xs {
+    font-size: 0.75rem;
 }
+
+.font-medium {
+    font-weight: 500;
+}
+
+/* Reusing utilities instead of specific classes
+   Removed: .text-subtitle, .intro-text, .footer-info
+*/
 
 @media (max-width: 768px) {
     .skills-layout {
