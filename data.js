@@ -82,60 +82,6 @@ Along the way I discovered I could do more than fix problems — I could build s
     ],
     projects: [
         {
-            title: "rsjqa.com — RSJ Inspection Service Ltd.",
-            description: "Main company website. LiteSpeed optimised, WebP compression, smart lead capture funnels (email, call, WhatsApp), Umami analytics, full SEO management with SEO Framework and RankMath.",
-            link: "https://rsjqa.com",
-            tags: ["WordPress", "Blocksy", "Cloudflare", "LiteSpeed", "RankMath", "Umami"]
-        },
-        {
-            title: "assure4good.com — Sustainability Services",
-            description: "Company sustainability services website — GHG services, environmental audits, SCA programme.",
-            link: "https://assure4good.com",
-            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"]
-        },
-        {
-            title: "course.assure4good.com — APSCA-Approved LMS",
-            description: "Full LMS platform for an APSCA-approved SCA training programme.",
-            link: "https://course.assure4good.com",
-            tags: ["WordPress", "Academy LMS", "Masteriyo", "Cloudflare"]
-        },
-        {
-            title: "qualpedia.com — Knowledge Platform",
-            description: "Knowledge sharing platform for quality and business excellence experts.",
-            link: "https://qualpedia.com",
-            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"]
-        },
-        {
-            title: "blog.rsjqa.com — RSJ Content Blog",
-            description: "Company blog — articles, infographics, videos on quality, audits, and sustainable practices.",
-            link: "https://blog.rsjqa.com",
-            tags: ["WordPress", "Hostinger", "Cloudflare", "SEO Framework"]
-        },
-        {
-            title: "zedmsme.com — ZED Certification Support",
-            description: "Website supporting ZED certification assistance for MSMEs.",
-            link: "https://zedmsme.com",
-            tags: ["WordPress", "Hostinger", "Cloudflare"]
-        },
-        {
-            title: "Internal HR Background Verification Portal",
-            description: "Multi-user web application replacing a fully manual HR process. Role-based access, automated email workflows, real-time tracking, CSV export, and audit trail.",
-            link: "",
-            tags: ["PHP", "MySQL", "Cloudflare", "Role-Based Auth"]
-        },
-        {
-            title: "Internal Training & Certification Platform",
-            description: "WordPress plugin powering an APSCA-approved professional training programme. Multi-module quizzes, automated certificate issuance with QR codes, public verification registry, analytics.",
-            link: "",
-            tags: ["PHP", "WordPress", "MySQL", "SMTP", "Analytics"]
-        },
-        {
-            title: "Internal Certificate & Feedback Automation Plugin",
-            description: "WordPress plugin for full certificate lifecycle automation — 3-stage email workflow, QR codes, feedback collection, monthly analytics.",
-            link: "",
-            tags: ["PHP", "WordPress", "Email Automation", "FluentForms"]
-        },
-        {
             title: "WinLocksmith — Windows Hardening Tool",
             description: "Free Intune/MDM alternative. Generates PowerShell scripts for Windows 10/11 hardening.",
             link: "https://github.com/boopathirbk/winlocksmith",
@@ -158,6 +104,66 @@ Along the way I discovered I could do more than fix problems — I could build s
             description: "Reusable filterable Gutenberg block for job listings. 3 GitHub stars.",
             link: "https://github.com/boopathirbk/Job-Listing-WordPress-Block-Plugin",
             tags: ["WordPress", "Gutenberg", "JavaScript"]
+        },
+        {
+            title: "Internal HR Background Verification Portal",
+            description: "Multi-user web application replacing a fully manual HR process. Role-based access, automated email workflows, real-time tracking, CSV export, and audit trail.",
+            link: "",
+            tags: ["PHP", "MySQL", "Cloudflare", "Role-Based Auth"]
+        },
+        {
+            title: "Internal Training & Certification Platform",
+            description: "WordPress plugin powering an APSCA-approved professional training programme. Multi-module quizzes, automated certificate issuance with QR codes, public verification registry, analytics.",
+            link: "",
+            tags: ["PHP", "WordPress", "MySQL", "SMTP", "Analytics"]
+        },
+        {
+            title: "Internal Certificate & Feedback Automation Plugin",
+            description: "WordPress plugin for full certificate lifecycle automation — 3-stage email workflow, QR codes, feedback collection, monthly analytics.",
+            link: "",
+            tags: ["PHP", "WordPress", "Email Automation", "FluentForms"]
+        },
+        {
+            title: "rsjqa.com — RSJ Inspection Service Ltd.",
+            description: "Main company website. LiteSpeed optimised, WebP compression, smart lead capture funnels (email, call, WhatsApp), Umami analytics, full SEO management with SEO Framework and RankMath.",
+            link: "https://rsjqa.com",
+            tags: ["WordPress", "Blocksy", "Cloudflare", "LiteSpeed", "RankMath", "Umami"],
+            companyWebsite: true
+        },
+        {
+            title: "assure4good.com — Sustainability Services",
+            description: "Company sustainability services website — GHG services, environmental audits, SCA programme.",
+            link: "https://assure4good.com",
+            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"],
+            companyWebsite: true
+        },
+        {
+            title: "course.assure4good.com — APSCA-Approved LMS",
+            description: "Full LMS platform for an APSCA-approved SCA training programme.",
+            link: "https://course.assure4good.com",
+            tags: ["WordPress", "Academy LMS", "Masteriyo", "Cloudflare"],
+            companyWebsite: true
+        },
+        {
+            title: "qualpedia.com — Knowledge Platform",
+            description: "Knowledge sharing platform for quality and business excellence experts.",
+            link: "https://qualpedia.com",
+            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"],
+            companyWebsite: true
+        },
+        {
+            title: "blog.rsjqa.com — RSJ Content Blog",
+            description: "Company blog — articles, infographics, videos on quality, audits, and sustainable practices.",
+            link: "https://blog.rsjqa.com",
+            tags: ["WordPress", "Hostinger", "Cloudflare", "SEO Framework"],
+            companyWebsite: true
+        },
+        {
+            title: "zedmsme.com — ZED Certification Support",
+            description: "Website supporting ZED certification assistance for MSMEs.",
+            link: "https://zedmsme.com",
+            tags: ["WordPress", "Hostinger", "Cloudflare"],
+            companyWebsite: true
         }
     ],
     education: [

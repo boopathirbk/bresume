@@ -109,6 +109,9 @@ const App = {
                         : `<a href="${proj.link}" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.375rem; margin-top:1rem; font-size:0.8rem; font-weight:500;">
                             View Project <i class="fas fa-arrow-right" style="font-size:0.7em;"></i>
                         </a>`}
+                    ${proj.companyWebsite
+                        ? `<span class="proprietary-note"><i class="fas fa-briefcase"></i> Built & maintained while employed at RSJ Inspection Service Ltd.</span>`
+                        : ''}
                 `;
                 projGrid.appendChild(card);
             });
