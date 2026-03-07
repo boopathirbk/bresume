@@ -10,7 +10,7 @@ export const resumeData = {
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
         tagline: "TECHNICAL SUPPORT · IT INFRASTRUCTURE · MICROSOFT 365 ADMINISTRATOR",
-        bio: "I solve real business problems — managing IT infrastructure, supporting users across complex environments, and building internal tools that stick. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS companies.",
+        bio: "I solve real business problems — managing IT infrastructure, supporting users across complex environments, and building internal tools that stick. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS and product-based companies.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
     },
     story: {
