@@ -12,7 +12,7 @@ const App = {
         this.setupAccessibility();
         this.updateYear();
 
-        console.log('App Initialized successfully.');
+
     },
 
     /**
@@ -80,7 +80,7 @@ const App = {
                 const hiddenDiv = document.getElementById('storyHidden');
 
                 btn.addEventListener('click', () => {
-                    console.log('Read More Clicked');
+
                     const isHidden = hiddenDiv.style.display === 'none';
                     hiddenDiv.style.display = isHidden ? 'block' : 'none';
                     btn.innerHTML = isHidden

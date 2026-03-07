@@ -6,6 +6,7 @@
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     --transition-base: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     /* Dark Theme (Default) */
     --bg-primary: #0a0a0a;
@@ -392,7 +393,6 @@ header {
     background: var(--card-bg);
     border: 1px solid var(--border);
     padding: 2rem;
-    border-radius: 1rem;
     border-radius: 1rem;
     transition: var(--transition-base);
     position: relative;
