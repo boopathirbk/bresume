@@ -11,8 +11,6 @@ const App = {
         this.setupAnimations();
         this.setupAccessibility();
         this.updateYear();
-
-
     },
 
     /**
@@ -27,21 +25,29 @@ const App = {
             return;
         }
 
-        // Hero Section
+        // Hero Section — Avatar
         if (resumeData.personalInfo.avatar && $('avatar')) {
             const avatarEl = $('avatar');
             avatarEl.src = resumeData.personalInfo.avatar;
             avatarEl.style.display = 'inline-block';
         }
 
+        // Tagline
         if ($('tagline')) $('tagline').textContent = resumeData.personalInfo.tagline || '';
-        if ($('heroName')) $('heroName').innerHTML = `Hi, I'm <br>${resumeData.personalInfo.name || 'Developer'}`;
+
+        // Hero Name — with gradient span
+        if ($('heroName')) {
+            const name = resumeData.personalInfo.name || 'Developer';
+            $('heroName').innerHTML = `Hi, I'm <br><span class="name-gradient">${name}</span>`;
+        }
+
+        // Bio
         if ($('heroBio')) $('heroBio').textContent = resumeData.personalInfo.bio || '';
 
         // Social Links
         const linksContainer = document.querySelector('.links-container');
         if (linksContainer && resumeData.personalInfo.social) {
-            linksContainer.innerHTML = ''; // Clear existing
+            linksContainer.innerHTML = '';
 
             const createLink = (url, text, iconClass, isPrimary = false) => {
                 const a = document.createElement('a');
@@ -49,7 +55,7 @@ const App = {
                 a.className = `btn ${isPrimary ? 'primary' : ''}`;
                 a.innerHTML = `<i class="${iconClass}"></i> ${text}`;
                 a.target = "_blank";
-                a.rel = "noopener noreferrer"; // Security best practice
+                a.rel = "noopener noreferrer";
                 return a;
             };
 
@@ -60,12 +66,11 @@ const App = {
         // Story with "Read More"
         const storyContainer = $('storyContent');
         if (storyContainer && resumeData.story?.content) {
-            // Split by double newline to find paragraphs
             const paragraphs = resumeData.story.content.split(/\n\s*\n/);
 
             if (paragraphs.length > 1) {
                 const firstPara = paragraphs[0];
-                const cleanRest = paragraphs.slice(1).join('\n\n'); // Rejoin the rest
+                const cleanRest = paragraphs.slice(1).join('\n\n');
 
                 storyContainer.innerHTML = `
                     <p>${firstPara}</p>
@@ -75,12 +80,10 @@ const App = {
                     <button id="readMoreBtn" class="read-more-btn">Read More <i class="fas fa-chevron-down"></i></button>
                 `;
 
-                // Add Toggle Logic
                 const btn = document.getElementById('readMoreBtn');
                 const hiddenDiv = document.getElementById('storyHidden');
 
                 btn.addEventListener('click', () => {
-
                     const isHidden = hiddenDiv.style.display === 'none';
                     hiddenDiv.style.display = isHidden ? 'block' : 'none';
                     btn.innerHTML = isHidden
@@ -89,7 +92,6 @@ const App = {
                 });
 
             } else {
-                // Short story, just show it
                 storyContainer.textContent = resumeData.story.content;
             }
         }
@@ -103,8 +105,8 @@ const App = {
                 item.innerHTML = `
                     <div class="role">${exp.role}</div>
                     <div class="company">${exp.company}</div>
-                    <span class="period text-secondary text-sm" style="margin-bottom: 1rem; display: block;">${exp.period}</span>
-                    <ul class="text-secondary" style="list-style-position: inside; font-size: 0.95rem;">
+                    <span class="text-muted text-sm" style="margin-bottom: 0.75rem; display: block;">${exp.period}</span>
+                    <ul class="text-secondary" style="list-style-position: inside; font-size: 0.875rem; line-height: 1.75;">
                         ${exp.description.map(d => `<li style="margin-bottom:0.25rem">${d}</li>`).join('')}
                     </ul>
                 `;
@@ -118,37 +120,77 @@ const App = {
             resumeData.projects.forEach(proj => {
                 const card = document.createElement('div');
                 card.className = 'project-card';
+
+                const isProprietaryProject = !proj.link;
+
                 card.innerHTML = `
                     <h3 class="project-title">${proj.title}</h3>
                     <p class="text-secondary text-sm">${proj.description}</p>
                     <div class="tags">
                         ${proj.tags.map(t => `<span class="tag">${t}</span>`).join('')}
                     </div>
-                    ${proj.link ? `
-                    <a href="${proj.link}" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:1.5rem; font-size:0.9rem;">
-                        View Project <i class="fas fa-arrow-right" style="font-size:0.8em; margin-left:5px;"></i>
-                    </a>` : ''}
+                    ${isProprietaryProject
+                        ? `<span class="proprietary-note"><i class="fas fa-lock"></i> Proprietary — internal company use</span>`
+                        : `<a href="${proj.link}" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.375rem; margin-top:1rem; font-size:0.8rem; font-weight:500;">
+                            View Project <i class="fas fa-arrow-right" style="font-size:0.7em;"></i>
+                        </a>`}
                 `;
                 projGrid.appendChild(card);
             });
         }
 
-        // List Renderer Helper
-        const renderList = (elementId, items) => {
-            const container = $(elementId);
-            if (container) {
-                items.forEach(item => {
-                    const span = document.createElement('span');
-                    span.className = 'skill-pill';
-                    span.textContent = item;
-                    container.appendChild(span);
-                });
+        // Skills — Color-coded badges
+        const skillCategories = [
+            { keywords: ['Windows', 'OS Troubleshooting'], colorClass: 'badge-sky' },
+            { keywords: ['Linux', 'Networking', 'Cloud'], colorClass: 'badge-emerald' },
+            { keywords: ['Remote', 'Web Dev'], colorClass: 'badge-rose' },
+            { keywords: ['AI-Assisted'], colorClass: 'badge-violet' },
+        ];
+
+        const getSkillColor = (skill) => {
+            for (const cat of skillCategories) {
+                if (cat.keywords.some(kw => skill.includes(kw))) return cat.colorClass;
             }
+            return '';
         };
 
-        renderList('skillsList', resumeData.skills || []);
-        renderList('certsList', resumeData.certifications || []);
-        renderList('interestsList', resumeData.interests || []);
+        const skillsContainer = $('skillsList');
+        if (skillsContainer && resumeData.skills) {
+            resumeData.skills.forEach(skill => {
+                const span = document.createElement('span');
+                span.className = `skill-pill ${getSkillColor(skill)}`;
+                span.textContent = skill;
+                skillsContainer.appendChild(span);
+            });
+        }
+
+        // Certifications — Icon cards
+        const certsContainer = $('certsList');
+        if (certsContainer && resumeData.certifications) {
+            certsContainer.innerHTML = '';
+            certsContainer.style.flexDirection = 'column';
+
+            resumeData.certifications.forEach(cert => {
+                const div = document.createElement('div');
+                div.className = 'cert-card';
+                div.innerHTML = `
+                    <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <span>${cert}</span>
+                `;
+                certsContainer.appendChild(div);
+            });
+        }
+
+        // Interests
+        const interestsContainer = $('interestsList');
+        if (interestsContainer && resumeData.interests) {
+            resumeData.interests.forEach(item => {
+                const span = document.createElement('span');
+                span.className = 'skill-pill badge-amber';
+                span.textContent = item;
+                interestsContainer.appendChild(span);
+            });
+        }
 
         // Footer
         if ($('footerLocation')) {
@@ -158,8 +200,8 @@ const App = {
         const footerSocial = $('footerSocial');
         if (footerSocial) {
             footerSocial.innerHTML = `
-                <h2 style="margin-bottom: 3rem;">Get in Touch</h2>
-                <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 800px; margin: 0 auto 3rem;">
+                <h2 style="margin-bottom: 2.5rem;">Get in Touch</h2>
+                <div class="contact-grid">
                     
                     <a href="mailto:${resumeData.personalInfo.email}" class="contact-card">
                         <div class="icon-box"><i class="fas fa-envelope"></i></div>
@@ -207,11 +249,9 @@ const App = {
         const icon = toggleBtn.querySelector('i');
         const root = document.documentElement;
 
-        // 1. Check persistence
         const savedTheme = localStorage.getItem('app-theme');
         const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-        // Respect saved theme first, otherwise fall back to system preference
         let currentTheme;
         if (savedTheme) {
             currentTheme = savedTheme;
@@ -219,16 +259,11 @@ const App = {
             currentTheme = systemPrefersDark ? 'dark' : 'light';
         }
 
-        // Apply initial
         root.setAttribute('data-theme', currentTheme);
         this.updateThemeIcon(icon, currentTheme);
 
-        // 2. Event Listener
         toggleBtn.addEventListener('click', () => {
-            // Toggle
             currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-            // Apply
             root.setAttribute('data-theme', currentTheme);
             localStorage.setItem('app-theme', currentTheme);
             this.updateThemeIcon(icon, currentTheme);
@@ -252,21 +287,18 @@ const App = {
 
                 if (shouldReduceMotion) {
                     entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
+                    entry.target.style.transform = 'none';
                     return;
                 }
 
                 if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
+                    entry.target.classList.add('animate-in');
                 }
             });
         }, { threshold: 0.1 });
 
         document.querySelectorAll('.section').forEach(section => {
             section.style.opacity = '0';
-            section.style.transform = 'translateY(20px)';
-            section.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
             observer.observe(section);
         });
     },
@@ -278,7 +310,6 @@ const App = {
 
         if (!trigger || !menu) return;
 
-        // State
         const state = {
             textSize: 100,
             grayscale: false,
@@ -288,7 +319,6 @@ const App = {
             motion: false
         };
 
-        // Helper: Toggle Class & Aria
         const toggleFeature = (btnId, stateKey, className, target = document.body) => {
             const btn = document.getElementById(btnId);
             if (!btn) return;
@@ -296,14 +326,11 @@ const App = {
             btn.addEventListener('click', () => {
                 state[stateKey] = !state[stateKey];
 
-                // Visual
                 if (state[stateKey]) target.classList.add(className);
                 else target.classList.remove(className);
 
-                // ARIA
                 btn.setAttribute('aria-pressed', state[stateKey]);
 
-                // Special handling for special attributes
                 if (stateKey === 'motion') {
                     if (state.motion) document.body.setAttribute('data-a11y-motion', 'reduce');
                     else document.body.removeAttribute('data-a11y-motion');
@@ -315,14 +342,12 @@ const App = {
             });
         };
 
-        // Initialize Toggles
         toggleFeature('grayscaleToggle', 'grayscale', 'grayscale-mode', document.documentElement);
         toggleFeature('readableFontToggle', 'readableFont', 'readable-font-mode');
         toggleFeature('underlineLinksToggle', 'links', 'link-highlight-mode');
-        toggleFeature('reduceMotionToggle', 'motion', 'reduce-motion'); // Class unused but good for state, attribute used in logic
+        toggleFeature('reduceMotionToggle', 'motion', 'reduce-motion');
         toggleFeature('highContrastToggle', 'highContrast', 'high-contrast');
 
-        // Text Sizing Logic
         const updateTextSize = () => {
             document.documentElement.style.fontSize = `${state.textSize}%`;
             document.getElementById('textSizeDisplay').textContent = `${state.textSize}%`;
@@ -342,29 +367,20 @@ const App = {
             }
         });
 
-        // Reset
         document.getElementById('resetA11y')?.addEventListener('click', () => {
-            // Reset State objects
             Object.keys(state).forEach(k => state[k] = (k === 'textSize' ? 100 : false));
-
-            // Remove Classes
             document.documentElement.classList.remove('grayscale-mode');
             document.body.classList.remove('readable-font-mode', 'link-highlight-mode');
             document.body.removeAttribute('data-a11y-contrast');
             document.body.removeAttribute('data-a11y-motion');
-
-            // Reset ARIA
             menu.querySelectorAll('[aria-pressed]').forEach(b => b.setAttribute('aria-pressed', 'false'));
-
             updateTextSize();
         });
 
-        // Menu Open/Close & Focus Management
         const toggleMenu = (isOpen) => {
             if (isOpen) {
                 menu.classList.add('active');
                 trigger.setAttribute('aria-expanded', 'true');
-                // Focus first interactive element
                 setTimeout(() => document.getElementById('closeA11y')?.focus(), 100);
             } else {
                 menu.classList.remove('active');
@@ -376,12 +392,11 @@ const App = {
         trigger.addEventListener('click', () => toggleMenu(!menu.classList.contains('active')));
         close?.addEventListener('click', () => toggleMenu(false));
 
-        // Close on Escape
         menu.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') toggleMenu(false);
         });
     }
 };
 
-// Initialize app immediately (Module execution is deferred by default)
+// Initialize app
 App.init();
