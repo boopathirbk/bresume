@@ -10,16 +10,16 @@ export const resumeData = {
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
         tagline: "TECHNICAL SUPPORT · IT INFRASTRUCTURE · WORDPRESS PLUGIN AUTHOR",
-        bio: "I build internal tools that solve real business problems — from HR verification portals to enterprise certification platforms — and support complex IT infrastructure for 100+ users. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS companies.",
+        bio: "I solve real business problems — building internal tools, managing IT infrastructure, and supporting users across complex environments. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS companies.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
     },
     story: {
         title: "My Story",
-        content: `I stepped into tech in 2015 studying Computer Science at Bannari Amman Institute of Technology. Over 7 years I grew from domain and hosting support to leading IT operations across 4 branches, administering Microsoft 365, Azure Active Directory, Cloudflare, DNS, and network security.
+        content: `I stepped into tech in 2015 studying Computer Science at Bannari Amman Institute of Technology. Over 7 years I grew from domain and hosting support to leading IT operations across multiple branches — administering Microsoft 365, Azure Active Directory, Cloudflare, DNS, and network security.
 
-Along the way I discovered I could do more than fix problems — I could build solutions. I've since shipped three production internal tools used daily by real teams, published multiple WordPress plugins, and built open-source tools for IT admins.
+Along the way I discovered I could do more than fix problems — I could build solutions. I've since shipped internal tools used daily by real teams, published multiple WordPress plugins, and built open-source tools for IT admins.
 
-I work using AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.`
+I use AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.`
     },
     experience: [
         {
@@ -31,7 +31,7 @@ I work using AI-assisted development — Anthropic Claude (via Antigravity & cla
                 "Microsoft 365 and Azure Active Directory (Entra ID) administration — MFA, access control, user provisioning.",
                 "DNS, DHCP, Cloudflare CDN, SMTP, firewall configuration across all branches.",
                 "Led 4-person IT team — escalation handling, documentation, cross-branch coordination.",
-                "Built three production internal tools: TruDocx (HR verification portal), WP Ultimate Quiz (certification platform), Cert Pilot (certificate automation plugin).",
+                "Built internal production tools for HR and training workflows using PHP, MySQL, and WordPress.",
                 "Leverage Anthropic Claude (Antigravity & claude.ai), Google Gemini, GitHub Copilot for development and automation."
             ]
         },
@@ -42,7 +42,7 @@ I work using AI-assisted development — Anthropic Claude (via Antigravity & cla
             description: [
                 "24/7 SaaS platform support — API integrations, staging-to-production issues, client configurations.",
                 "End-to-end issue management via JIRA and Confluence across international time zones.",
-                "Client communication via Skype, Line, Telegram — technical accuracy with client-friendly explanations.",
+                "Client communication via Skype, Line, Telegram.",
                 "Maintained README documentation and knowledge base."
             ]
         },
@@ -77,32 +77,32 @@ I work using AI-assisted development — Anthropic Claude (via Antigravity & cla
     ],
     projects: [
         {
-            title: "TruDocx — HR Background Verification Portal",
-            description: "Multi-user PHP/MySQL web app replacing a fully manual HR process. Cloudflare 2FA, role-based access (Admin/HR), automated email workflows to previous employers, real-time tracking, CSV export, audit trail.",
-            link: "https://verify.trudocx.com",
+            title: "Internal HR Verification Portal",
+            description: "A multi-user web application built to replace a fully manual HR background verification process. Features role-based access control, automated email workflows, real-time tracking, and audit trails.",
+            link: "",
             tags: ["PHP", "MySQL", "Cloudflare", "Role-Based Auth"]
         },
         {
-            title: "WP Ultimate Quiz — Enterprise Certification Platform",
-            description: "WordPress plugin for RSJ's CSAP training. 3 quiz modules, batch management (Mumbai & Delhi), invite-only access, QR-coded certificates, public verification registry. 63 submissions, 84.1% pass rate, 4.8/5 rating, 22 participants, 20 certificates issued.",
-            link: "https://assure4good.com",
+            title: "Internal Training & Certification Platform",
+            description: "A WordPress-based platform for managing professional training programmes. Features multi-module quizzes, batch management, automated certificate issuance with QR codes, and a public verification registry.",
+            link: "",
             tags: ["PHP", "WordPress", "MySQL", "SMTP", "Analytics"]
         },
         {
-            title: "Cert Pilot — Certificate & Feedback Automation Plugin",
-            description: "Full certificate lifecycle automation. 3-stage email workflow, QR codes, feedback collection, analytics. 98 submissions from 10+ countries, 50 feedback entries.",
-            link: "https://course.assure4good.com",
+            title: "Internal Certificate Automation System",
+            description: "A WordPress plugin managing the full certificate lifecycle for an online training course — automated email workflows, feedback collection, and monthly analytics.",
+            link: "",
             tags: ["PHP", "WordPress", "Email Automation", "FluentForms"]
         },
         {
             title: "WinLocksmith — Windows Hardening Tool",
-            description: "Free Intune/MDM alternative. Generates PowerShell scripts for Windows 10/11 hardening — Group Policy, kiosk mode, DNS, USB blocking. React 19 + TypeScript + Vite + TailwindCSS.",
+            description: "Open-source free alternative to Microsoft Intune/MDM. Generates PowerShell scripts for Windows 10/11 hardening — Group Policy, kiosk mode, DNS enforcement, USB blocking.",
             link: "https://github.com/boopathirbk/winlocksmith",
-            tags: ["React", "TypeScript", "PowerShell", "TailwindCSS"]
+            tags: ["React 19", "TypeScript", "Vite", "TailwindCSS", "PowerShell"]
         },
         {
             title: "WP Bulk Pages Generator — WordPress Plugin",
-            description: "Bulk create Pages/Posts/CPT via REST API. WCAG 2.2 AA, async engine, dark mode. v1.0.3 with 4 releases. 1 GitHub star.",
+            description: "Bulk create Pages, Posts, and Custom Post Types via REST API. WCAG 2.2 AA compliant, async engine, dark mode. v1.0.3. 1 GitHub star.",
             link: "https://github.com/boopathirbk/wp-bulk-pages-generator",
             tags: ["PHP", "WordPress REST API", "JavaScript"]
         },
@@ -114,7 +114,7 @@ I work using AI-assisted development — Anthropic Claude (via Antigravity & cla
         },
         {
             title: "Job Listing Block Plugin — Gutenberg",
-            description: "Reusable filterable job listing block for WordPress. 3 GitHub stars.",
+            description: "Reusable filterable job listing Gutenberg block. 3 GitHub stars.",
             link: "https://github.com/boopathirbk/Job-Listing-WordPress-Block-Plugin",
             tags: ["WordPress", "Gutenberg", "JavaScript"]
         }
