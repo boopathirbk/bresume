@@ -1,14 +1,14 @@
-# Boopathi R — Technical Support Engineer, Web Developer & Internal Tools Builder
+# Boopathi R — Technical Support Engineer, IT Infrastructure & Microsoft 365 Administrator
 
 ![Status](https://img.shields.io/badge/status-live-success.svg)
 ![Accessibility](https://img.shields.io/badge/accessibility-WCAG_2.1_AA-green.svg)
 ![Tech](https://img.shields.io/badge/tech-Vanilla_JS-yellow.svg)
 
-Personal portfolio website showcasing 7+ years of experience in IT infrastructure, technical support, web development, and internal tools development.
+Personal portfolio website showcasing 7+ years of experience in technical support, IT infrastructure management, Microsoft 365 administration, and internal tools development.
 
 ## 🌟 Project Overview
 
-A lightweight, high-performance portfolio for a Technical Support Engineer, Web Developer and Internal Tools Builder. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
+A lightweight, high-performance portfolio for a Technical Support Engineer and IT Infrastructure professional. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
 
 ## 💎 Key Features
 

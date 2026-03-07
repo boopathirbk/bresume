@@ -143,9 +143,9 @@ const App = {
         const skillCategories = [
             { keywords: ['Windows', 'OS Troubleshooting', 'Microsoft 365'], colorClass: 'badge-sky' },
             { keywords: ['Linux', 'Networking'], colorClass: 'badge-emerald' },
-            { keywords: ['Remote', 'Web Dev'], colorClass: 'badge-rose' },
+            { keywords: ['Remote', 'Web & Content'], colorClass: 'badge-rose' },
             { keywords: ['AI-Assisted'], colorClass: 'badge-violet' },
-            { keywords: ['Email Admin', 'Social Media'], colorClass: 'badge-amber' },
+            { keywords: ['Email Admin'], colorClass: 'badge-amber' },
         ];
 
         const getSkillColor = (skill) => {

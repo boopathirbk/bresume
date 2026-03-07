@@ -1,7 +1,7 @@
 export const resumeData = {
     personalInfo: {
         name: "Boopathi R",
-        title: "Technical Support Engineer · IT Infrastructure · Web Developer & Internal Tools Builder",
+        title: "Technical Support Engineer · IT Infrastructure · Microsoft 365 & Azure AD Administrator",
         email: "boopathirbk77@gmail.com",
         phone: "+91 7395845142",
         location: "Bengaluru, Karnataka, India",
@@ -9,8 +9,8 @@ export const resumeData = {
             github: "https://github.com/boopathirbk",
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
-        tagline: "TECHNICAL SUPPORT · IT INFRASTRUCTURE · WEB DEVELOPER · WORDPRESS PLUGIN AUTHOR",
-        bio: "I solve real business problems — building internal tools, managing IT infrastructure, developing company websites, and supporting users across complex environments. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS companies.",
+        tagline: "TECHNICAL SUPPORT · IT INFRASTRUCTURE · MICROSOFT 365 ADMINISTRATOR",
+        bio: "I solve real business problems — managing IT infrastructure, supporting users across complex environments, and building internal tools that stick. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS companies.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
     },
     story: {
@@ -28,17 +28,17 @@ Along the way I discovered I could do more than fix problems — I could build s
             period: "April 2024 - Present",
             description: [
                 "Technical support for 100+ users across 4 branches — hardware, OS, network, application issues.",
-                "Microsoft 365 Global Admin — SharePoint administration, OneDrive deployment and backup, Office app deployment, user policy creation.",
-                "Azure Active Directory (Entra ID) — access control, group management, MFA, conditional access policies.",
-                "Built and maintain 6 live company websites: rsjqa.com, blog.rsjqa.com, assure4good.com, course.assure4good.com, qualpedia.com, zedmsme.com — all on WordPress + Blocksy + Hostinger + Cloudflare.",
-                "Optimised rsjqa.com with LiteSpeed, WebP image compression, smart lead capture funnels, Umami analytics, SEO Framework and RankMath.",
-                "Manage all company social media — LinkedIn, YouTube, Twitter/X, Facebook, Instagram — poster creation, video editing, publishing.",
-                "Administer Yahoo SMB (Turbify) business email — user creation, Outlook and Spark email setup for all staff.",
-                "Extended WiFi across 2 branches with business routers; installed UPS backup power for network continuity.",
+                "Microsoft 365 Global Admin — SharePoint, OneDrive deployment and backup, Office app deployment, user policy creation, conditional access.",
+                "Azure Active Directory (Entra ID) — access control, group management, MFA, licence assignment.",
+                "Configure and maintain DNS, DHCP, Cloudflare CDN, SMTP, and firewall rules across all branches.",
+                "Extended WiFi across 2 branches with business routers; installed UPS backup power.",
                 "Hardware servicing — RAM, SSD, HDD replacement; fresh Windows 11 installs via USB; laptop asset management across 4 branches.",
+                "Administer Yahoo SMB (Turbify) business email — Outlook and Spark setup for all staff.",
+                "Built and maintain 6 live company websites on WordPress + Blocksy + Hostinger + Cloudflare.",
+                "Built 3 proprietary internal tools: HR verification portal, enterprise training and certification platform, certificate automation plugin — all in active daily use.",
+                "Produced training videos for staff including digital signing workflows.",
+                "Manage all company social media — LinkedIn, YouTube, Twitter/X, Facebook, Instagram.",
                 "Led 4-person IT team — escalation handling, documentation, cross-branch coordination.",
-                "Built 3 proprietary internal tools: HR verification portal, enterprise training and certification platform, certificate automation plugin.",
-                "Produced training videos for staff — including digital signing with USB token using Foxit PDF Reader.",
                 "Leverage Anthropic Claude (Antigravity & claude.ai), Google Gemini, GitHub Copilot for development and automation."
             ]
         },
@@ -85,19 +85,19 @@ Along the way I discovered I could do more than fix problems — I could build s
     projects: [
         {
             title: "rsjqa.com — RSJ Inspection Service Ltd.",
-            description: "Main company website. LiteSpeed optimised, WebP compression, smart lead capture funnels (email, call, WhatsApp), Umami analytics, full SEO management.",
+            description: "Main company website. LiteSpeed optimised, WebP compression, smart lead capture funnels (email, call, WhatsApp), Umami analytics, full SEO management with SEO Framework and RankMath.",
             link: "https://rsjqa.com",
             tags: ["WordPress", "Blocksy", "Cloudflare", "LiteSpeed", "RankMath", "Umami"]
         },
         {
             title: "assure4good.com — Sustainability Services",
-            description: "Sustainability services website — GHG services, environmental audits, SCA programme.",
+            description: "Company sustainability services website — GHG services, environmental audits, SCA programme.",
             link: "https://assure4good.com",
             tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"]
         },
         {
             title: "course.assure4good.com — APSCA-Approved LMS",
-            description: "Full LMS platform for APSCA-approved SCA course. Integrated with internal certification plugin.",
+            description: "Full LMS platform for an APSCA-approved SCA training programme.",
             link: "https://course.assure4good.com",
             tags: ["WordPress", "Academy LMS", "Masteriyo", "Cloudflare"]
         },
@@ -115,49 +115,49 @@ Along the way I discovered I could do more than fix problems — I could build s
         },
         {
             title: "zedmsme.com — ZED Certification Support",
-            description: "Website supporting RSJ's ZED certification programme for MSMEs.",
+            description: "Website supporting ZED certification assistance for MSMEs.",
             link: "https://zedmsme.com",
             tags: ["WordPress", "Hostinger", "Cloudflare"]
         },
         {
             title: "Internal HR Background Verification Portal",
-            description: "Multi-user PHP/MySQL web app replacing a fully manual HR process. Cloudflare 2FA, role-based access (Admin/HR), automated email workflows, real-time tracking, CSV export, audit trail.",
+            description: "Multi-user web application replacing a fully manual HR process. Role-based access, automated email workflows, real-time tracking, CSV export, and audit trail.",
             link: "",
             tags: ["PHP", "MySQL", "Cloudflare", "Role-Based Auth"]
         },
         {
             title: "Internal Training & Certification Platform",
-            description: "WordPress plugin for professional CSAP training — APSCA approved. Multi-module quizzes, batch management, QR-coded certificates, public verification registry, analytics dashboard.",
+            description: "WordPress plugin powering an APSCA-approved professional training programme. Multi-module quizzes, automated certificate issuance with QR codes, public verification registry, analytics.",
             link: "",
             tags: ["PHP", "WordPress", "MySQL", "SMTP", "Analytics"]
         },
         {
             title: "Internal Certificate & Feedback Automation Plugin",
-            description: "WordPress plugin for full certificate lifecycle automation. 3-stage email workflow, QR codes, feedback collection, monthly analytics.",
+            description: "WordPress plugin for full certificate lifecycle automation — 3-stage email workflow, QR codes, feedback collection, monthly analytics.",
             link: "",
             tags: ["PHP", "WordPress", "Email Automation", "FluentForms"]
         },
         {
             title: "WinLocksmith — Windows Hardening Tool",
-            description: "Free Intune/MDM alternative. Generates PowerShell scripts for Windows 10/11 hardening — Group Policy, kiosk mode, DNS enforcement, USB blocking. React 19 + TypeScript + Vite + TailwindCSS.",
+            description: "Free Intune/MDM alternative. Generates PowerShell scripts for Windows 10/11 hardening.",
             link: "https://github.com/boopathirbk/winlocksmith",
             tags: ["React 19", "TypeScript", "Vite", "TailwindCSS", "PowerShell"]
         },
         {
             title: "WP Bulk Pages Generator — WordPress Plugin",
-            description: "Bulk create Pages/Posts/CPT via REST API. WCAG 2.2 AA, async engine, dark mode. v1.0.3. 1 GitHub star.",
+            description: "Bulk create Pages/Posts/CPT via WordPress REST API. WCAG 2.2 AA compliant. v1.0.3, 4 releases, 1 GitHub star.",
             link: "https://github.com/boopathirbk/wp-bulk-pages-generator",
             tags: ["PHP", "WordPress REST API", "JavaScript"]
         },
         {
             title: "Polar SMTP Mailer — WordPress Plugin",
-            description: "SMTP plugin with email logging, queue management, 15+ providers, backup failover. Submitted to WordPress.org.",
+            description: "SMTP plugin with email logging, queue management, 15+ providers. Submitted to WordPress.org.",
             link: "https://github.com/boopathirbk/Polar-SMTP-Mailer",
             tags: ["PHP", "WordPress", "SMTP"]
         },
         {
             title: "Job Listing Block Plugin — Gutenberg",
-            description: "Reusable filterable job listing Gutenberg block. 3 GitHub stars.",
+            description: "Reusable filterable Gutenberg block for job listings. 3 GitHub stars.",
             link: "https://github.com/boopathirbk/Job-Listing-WordPress-Block-Plugin",
             tags: ["WordPress", "Gutenberg", "JavaScript"]
         }
@@ -184,15 +184,14 @@ Along the way I discovered I could do more than fix problems — I could build s
     ],
     skills: [
         "Windows Administration (AD, Azure AD, Group Policy, DNS, DHCP, System Hardening)",
-        "Microsoft 365 & Cloud (Global Admin, SharePoint, OneDrive, Azure AD, Office Deployment)",
+        "Microsoft 365 & Cloud (Global Admin, SharePoint, OneDrive, Azure AD, Conditional Access)",
         "OS Troubleshooting (Windows 10/11/Server, Event Viewer, Log Analysis)",
         "Linux (Ubuntu, CLI, Log Analysis — LPI Certified)",
         "Networking & Hardware (Firewall, Cloudflare, VPN, Router Setup, WiFi, UPS, RAM/SSD)",
         "Email Administration (Microsoft 365, Yahoo SMB/Turbify, Outlook, Spark)",
         "Remote & Support Tools (RDP, JIRA, Confluence, SLA, Skype, Telegram)",
-        "Web Development (WordPress, Blocksy, PHP, REST API, LiteSpeed, Cloudflare, RankMath, Umami)",
-        "AI-Assisted Dev (Claude, Gemini, Copilot, Llama, GPT, Imagen)",
-        "Social Media & Content (LinkedIn, YouTube, Twitter/X, Canva, Video Editing)"
+        "AI-Assisted Dev (Claude, Gemini, Copilot, Llama, Mistral, GPT)",
+        "Web & Content (WordPress, PHP, HTML, CSS, JS, Hostinger, Cloudflare, RankMath, Canva)"
     ],
     interests: [
         "Open Source Development",
