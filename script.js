@@ -64,37 +64,11 @@ const App = {
             linksContainer.appendChild(createLink('https://drive.google.com/uc?export=download&id=1CxD9xVYdcAzzN9NGGCPsFKzytOTXmwB9', 'Download Resume', 'fas fa-download'));
         }
 
-        // Story with "Read More"
+        // Story
         const storyContainer = $('storyContent');
         if (storyContainer && resumeData.story?.content) {
-            const paragraphs = resumeData.story.content.split(/\n\s*\n/);
-
-            if (paragraphs.length > 1) {
-                const firstPara = paragraphs[0];
-                const cleanRest = paragraphs.slice(1).join('\n\n');
-
-                storyContainer.innerHTML = `
-                    <p>${firstPara}</p>
-                    <div id="storyHidden" style="display: none; margin-top: 1rem;">
-                        <p style="white-space: pre-line">${cleanRest}</p>
-                    </div>
-                    <button id="readMoreBtn" class="read-more-btn">Read More <i class="fas fa-chevron-down"></i></button>
-                `;
-
-                const btn = document.getElementById('readMoreBtn');
-                const hiddenDiv = document.getElementById('storyHidden');
-
-                btn.addEventListener('click', () => {
-                    const isHidden = hiddenDiv.style.display === 'none';
-                    hiddenDiv.style.display = isHidden ? 'block' : 'none';
-                    btn.innerHTML = isHidden
-                        ? 'Show Less <i class="fas fa-chevron-up"></i>'
-                        : 'Read More <i class="fas fa-chevron-down"></i>';
-                });
-
-            } else {
-                storyContainer.textContent = resumeData.story.content;
-            }
+            storyContainer.style.whiteSpace = 'pre-line';
+            storyContainer.textContent = resumeData.story.content;
         }
 
         // Experience

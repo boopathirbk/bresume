@@ -16,9 +16,7 @@ export const resumeData = {
     story: {
         title: "My Story",
         content: `I stepped into tech during my Computer Science degree at Bannari Amman Institute of Technology, doing part-time domain and hosting support for US clients while still studying. After graduating in 2019, I took on freelance web development work before moving into full-time IT roles.
-
-Over the past 6+ years I've grown from IT support into leading full IT operations across 4 branches — serving as Microsoft 365 Global Admin, administering Azure Active Directory, SharePoint, OneDrive, Cloudflare, DNS, and network security.
-
+Over the past 7+ years I've grown from IT support into leading full IT operations across 4 branches — serving as Microsoft 365 Global Admin, administering Azure Active Directory, SharePoint, OneDrive, Cloudflare, DNS, and network security.
 Along the way I discovered I could do more than fix problems — I could build solutions. I've since built and maintained 6 live company websites, shipped 3 proprietary internal tools used daily by real teams, published multiple WordPress plugins, and built open-source tools for IT admins. I use AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.`
     },
     experience: [
