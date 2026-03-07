@@ -1,14 +1,14 @@
-# Boopathi R — Technical Support Engineer & Internal Tools Developer
+# Boopathi R — Technical Support Engineer, Web Developer & Internal Tools Builder
 
 ![Status](https://img.shields.io/badge/status-live-success.svg)
 ![Accessibility](https://img.shields.io/badge/accessibility-WCAG_2.1_AA-green.svg)
 ![Tech](https://img.shields.io/badge/tech-Vanilla_JS-yellow.svg)
 
-Personal portfolio showcasing 7+ years of experience in IT infrastructure, technical support, and internal tools development.
+Personal portfolio website showcasing 7+ years of experience in IT infrastructure, technical support, web development, and internal tools development.
 
 ## 🌟 Project Overview
 
-A lightweight, high-performance portfolio for a Technical Support Engineer and Internal Tools Developer. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
+A lightweight, high-performance portfolio for a Technical Support Engineer, Web Developer and Internal Tools Builder. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
 
 ## 💎 Key Features
 
@@ -30,16 +30,24 @@ Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
 ## 📄 Portfolio Content
 
 ### Experience (5 Roles)
-- Senior IT Support Executive & Web Developer — RSJ Inspection Service Ltd.
+- Senior IT Support Executive, Web Developer & Digital Manager — RSJ Inspection Service Ltd.
 - Technical Support Engineer — Gamify Studios Co.
 - IT Support Executive & Web Developer — RSJ Inspection Service Ltd.
 - Freelance Developer & Designer — Remote
 - Domain & Hosting Support (Part-time) — USA Web Buzi LLC
 
+### Company Websites (6 Live)
+- **[rsjqa.com](https://rsjqa.com)** — Main company website with LiteSpeed, SEO, lead funnels, Umami analytics.
+- **[assure4good.com](https://assure4good.com)** — Sustainability services — GHG, environmental audits, SCA programme.
+- **[course.assure4good.com](https://course.assure4good.com)** — APSCA-approved LMS for SCA training.
+- **[qualpedia.com](https://qualpedia.com)** — Knowledge platform for quality and business excellence.
+- **[blog.rsjqa.com](https://blog.rsjqa.com)** — Company blog on quality, audits, and sustainability.
+- **[zedmsme.com](https://zedmsme.com)** — ZED certification support for MSMEs.
+
 ### Internal Tools (3 Proprietary)
-- **HR Verification Portal** — Multi-user web app for background verification with role-based access and automated workflows.
-- **Training & Certification Platform** — WordPress-based training management with quizzes, certificates, and verification registry.
-- **Certificate Automation System** — Full certificate lifecycle plugin with email workflows, feedback collection, and analytics.
+- **HR Background Verification Portal** — Multi-user web app with role-based access, automated workflows, and audit trail.
+- **Training & Certification Platform** — WordPress plugin for professional training with quizzes, QR-coded certificates, and verification registry.
+- **Certificate & Feedback Automation Plugin** — Full certificate lifecycle automation with email workflows and analytics.
 
 ### Open Source Projects (4)
 - **[WinLocksmith](https://github.com/boopathirbk/winlocksmith)** — Free Intune/MDM alternative for Windows hardening.

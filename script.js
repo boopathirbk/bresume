@@ -141,10 +141,11 @@ const App = {
 
         // Skills — Color-coded badges
         const skillCategories = [
-            { keywords: ['Windows', 'OS Troubleshooting'], colorClass: 'badge-sky' },
-            { keywords: ['Linux', 'Networking', 'Cloud'], colorClass: 'badge-emerald' },
+            { keywords: ['Windows', 'OS Troubleshooting', 'Microsoft 365'], colorClass: 'badge-sky' },
+            { keywords: ['Linux', 'Networking'], colorClass: 'badge-emerald' },
             { keywords: ['Remote', 'Web Dev'], colorClass: 'badge-rose' },
             { keywords: ['AI-Assisted'], colorClass: 'badge-violet' },
+            { keywords: ['Email Admin', 'Social Media'], colorClass: 'badge-amber' },
         ];
 
         const getSkillColor = (skill) => {
