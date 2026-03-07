@@ -44,7 +44,7 @@ const App = {
         // Bio
         if ($('heroBio')) $('heroBio').textContent = resumeData.personalInfo.bio || '';
 
-        // Social Links
+        // Social Links + Resume
         const linksContainer = document.querySelector('.links-container');
         if (linksContainer && resumeData.personalInfo.social) {
             linksContainer.innerHTML = '';
@@ -61,6 +61,7 @@ const App = {
 
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.github, 'GitHub', 'fab fa-github', true));
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.linkedin, 'LinkedIn', 'fab fa-linkedin'));
+            linksContainer.appendChild(createLink('https://drive.google.com/uc?export=download&id=1CxD9xVYdcAzzN9NGGCPsFKzytOTXmwB9', 'Download Resume', 'fas fa-download'));
         }
 
         // Story with "Read More"
