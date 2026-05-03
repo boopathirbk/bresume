@@ -1,7 +1,7 @@
 export const resumeData = {
     personalInfo: {
         name: "Boopathi R",
-        title: "Technical Support Engineer · IT Infrastructure · Microsoft 365 & Azure AD Administrator",
+        title: "Senior Technical Support Engineer · IT Infrastructure · Microsoft 365 & Azure AD Administrator",
         email: "boopathirbk77@gmail.com",
         phone: "+91 7395845142",
         location: "Bengaluru, Karnataka, India",
@@ -9,7 +9,7 @@ export const resumeData = {
             github: "https://github.com/boopathirbk",
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
-        tagline: "TECHNICAL SUPPORT · IT INFRASTRUCTURE · MICROSOFT 365 ADMINISTRATOR",
+        tagline: "SENIOR TECHNICAL SUPPORT ENGINEER · IT INFRASTRUCTURE · MICROSOFT 365 ADMINISTRATOR",
         bio: "I solve real business problems — managing IT infrastructure, supporting users across complex environments, and building internal tools that stick. I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS and product-based companies.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
     },
@@ -23,9 +23,9 @@ Along the way I discovered I could do more than fix problems — I could build s
         {
             role: "Senior IT Support Executive, Web Developer & Digital Manager",
             company: "RSJ Inspection Service Ltd.",
-            period: "April 2024 - Present",
+            period: "April 2024 - April 2026",
             description: [
-                "Technical support for 100+ users across 4 branches — hardware, OS, network, application issues.",
+                "Provided Technical support for 100+ users across 4 branches — hardware, OS, network, application issues.",
                 "Microsoft 365 Global Admin — SharePoint, OneDrive deployment and backup, Office app deployment, user policy creation, conditional access.",
                 "Azure Active Directory (Entra ID) — access control, group management, MFA, licence assignment.",
                 "Configure and maintain DNS, DHCP, Cloudflare CDN, SMTP, and firewall rules across all branches.",
