@@ -1,4 +1,4 @@
-# Boopathi R — Technical Support Engineer, IT Infrastructure & Microsoft 365 Administrator
+# Boopathi R — Senior Technical Support Engineer, IT Infrastructure & Microsoft 365 Administrator
 
 ![Status](https://img.shields.io/badge/status-live-success.svg)
 ![Accessibility](https://img.shields.io/badge/accessibility-WCAG_2.1_AA-green.svg)
