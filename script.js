@@ -61,7 +61,7 @@ const App = {
 
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.github, 'GitHub', 'fab fa-github', true));
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.linkedin, 'LinkedIn', 'fab fa-linkedin'));
-            linksContainer.appendChild(createLink('https://drive.google.com/uc?export=download&id=1CxD9xVYdcAzzN9NGGCPsFKzytOTXmwB9', 'Download Resume', 'fas fa-download'));
+            linksContainer.appendChild(createLink('https://docs.google.com/document/d/1jc2-jMgmZChoW298pwJg89Fzu9FWIqag/edit?usp=sharing&ouid=117646048370708655688&rtpof=true&sd=true', 'Download Resume', 'fas fa-download'));
         }
 
         // Story
