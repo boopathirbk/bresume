@@ -195,6 +195,29 @@ a:hover {
 /* =========================================
    6. Utilities
    ========================================= */
+
+/* Skip to Content Link (WCAG 2.4.1) */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    background: var(--accent);
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    z-index: 9999;
+    transition: top 0.2s ease;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+    color: #fff;
+}
+
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
