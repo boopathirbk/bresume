@@ -1,14 +1,15 @@
-# Boopathi R — Senior Technical Support Engineer, IT Infrastructure & Microsoft 365 Administrator
+# Boopathi R — Lead Technical Support Engineer, IT Infrastructure & Microsoft 365 & Azure AD Administrator
 
 ![Status](https://img.shields.io/badge/status-live-success.svg)
 ![Accessibility](https://img.shields.io/badge/accessibility-WCAG_2.1_AA-green.svg)
 ![Tech](https://img.shields.io/badge/tech-Vanilla_JS-yellow.svg)
+![Last Updated](https://img.shields.io/badge/last_updated-July_2026-blue.svg)
 
 Personal portfolio website showcasing 7+ years of experience in technical support, IT infrastructure management, Microsoft 365 administration, and internal tools development.
 
 ## 🌟 Project Overview
 
-A lightweight, high-performance portfolio for a Technical Support Engineer and IT Infrastructure professional. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
+A lightweight, high-performance portfolio for a Lead Technical Support Engineer and IT Infrastructure professional. This project eschews heavy frameworks in favor of modern, semantic **Vanilla JavaScript, HTML5, and CSS3**. It achieves a perfect balance between a premium aesthetic and strict accessibility compliance.
 
 ## 💎 Key Features
 
@@ -30,11 +31,11 @@ Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
 ## 📄 Portfolio Content
 
 ### Experience (5 Roles)
+- IT Support & EUC Lead — L&T Semiconductor Technologies (via Micropoint Computers)
 - Senior IT Support Executive, Web Developer & Digital Manager — RSJ Inspection Service Ltd.
 - Technical Support Engineer — Gamify Studios Co.
 - IT Support Executive & Web Developer — RSJ Inspection Service Ltd.
-- Freelance Developer & Designer — Remote
-- Domain & Hosting Support (Part-time) — USA Web Buzi LLC
+- Web Developer & Remote Support Specialist — USA Web Buzi LLC
 
 ### Company Websites (6 Live)
 - **[rsjqa.com](https://rsjqa.com)** — Main company website with LiteSpeed, SEO, lead funnels, Umami analytics.
@@ -45,12 +46,12 @@ Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
 - **[zedmsme.com](https://zedmsme.com)** — ZED certification support for MSMEs.
 
 ### Internal Tools (3 Proprietary)
-- **HR Background Verification Portal** — Multi-user web app with role-based access, automated workflows, and audit trail.
-- **Training & Certification Platform** — WordPress plugin for professional training with quizzes, QR-coded certificates, and verification registry.
-- **Certificate & Feedback Automation Plugin** — Full certificate lifecycle automation with email workflows and analytics.
+- **HR Background Verification Portal** — Multi-user PHP/MySQL web app with Cloudflare-secured 2FA, role-based access, automated email workflows, and audit trail.
+- **Training & Certification Platform** — WordPress plugin for APSCA-approved training with multi-module quizzes, batch management, QR-coded certificates, and verification registry.
+- **Certificate & Feedback Automation Plugin** — Full certificate lifecycle automation with 3-stage email workflow, feedback collection, and monthly analytics.
 
 ### Open Source Projects (4)
-- **[WinLocksmith](https://github.com/boopathirbk/winlocksmith)** — Free Intune/MDM alternative for Windows hardening.
+- **[WinLocksmith](https://github.com/boopathirbk/winlocksmith)** — Free Intune/MDM alternative for Windows 10/11 hardening — Group Policy, Edge kiosk mode, Cloudflare Family DNS, USB blocking.
 - **[WP Bulk Pages Generator](https://github.com/boopathirbk/wp-bulk-pages-generator)** — Bulk create Pages/Posts/CPT via REST API.
 - **[Polar SMTP Mailer](https://github.com/boopathirbk/Polar-SMTP-Mailer)** — WordPress SMTP plugin with logging and failover.
 - **[Job Listing Block Plugin](https://github.com/boopathirbk/Job-Listing-WordPress-Block-Plugin)** — Filterable job listing Gutenberg block.
