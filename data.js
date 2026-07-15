@@ -1,7 +1,7 @@
 export const resumeData = {
     personalInfo: {
         name: "Boopathi R",
-        title: "Senior Technical Support Engineer · IT Infrastructure · Microsoft 365 & Azure AD Administrator",
+        title: "Lead Technical Support Engineer · IT Infrastructure · Microsoft 365 & Azure AD Administrator",
         email: "boopathirbk77@gmail.com",
         phone: "+91 7395845142",
         location: "Bengaluru, India",
@@ -9,7 +9,7 @@ export const resumeData = {
             github: "https://github.com/boopathirbk",
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
-        tagline: "SENIOR TECHNICAL SUPPORT ENGINEER · IT INFRASTRUCTURE · MICROSOFT 365 ADMINISTRATOR",
+        tagline: "LEAD TECHNICAL SUPPORT ENGINEER · IT INFRASTRUCTURE · MICROSOFT 365 & AZURE AD ADMINISTRATOR",
         bio: "Customer-focused IT professional with 7+ years of experience in technical support and IT infrastructure management, supporting 400+ users across multiple branches and countries as Microsoft 365 Global Admin. Goes beyond fixing problems — independently built 3 proprietary internal tools and 6 live company websites currently in active use. Ready to bring deep technical ownership, clear communication, and genuine customer focus to any IT, SaaS, or product-based company.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
     },
