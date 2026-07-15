@@ -11,7 +11,8 @@ export const resumeData = {
         },
         tagline: "LEAD TECHNICAL SUPPORT ENGINEER · IT INFRASTRUCTURE · MICROSOFT 365 & AZURE AD ADMINISTRATOR",
         bio: "Customer-focused IT professional with 7+ years of experience in technical support and IT infrastructure management, supporting 400+ users across multiple branches and countries as Microsoft 365 Global Admin. Goes beyond fixing problems — independently built 3 proprietary internal tools and 6 live company websites currently in active use. Ready to bring deep technical ownership, clear communication, and genuine customer focus to any IT, SaaS, or product-based company.",
-        avatar: "https://avatars.githubusercontent.com/u/22997723?v=4"
+        avatar: "https://avatars.githubusercontent.com/u/22997723?v=4",
+        resumeUrl: "https://drive.google.com/file/d/1mSw9JXqLbXRUM1vgh-k2EIgtfrxrdMqs/view?usp=sharing"
     },
     story: {
         title: "My Story",

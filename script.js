@@ -61,7 +61,7 @@ const App = {
 
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.github, 'GitHub', 'fab fa-github', true));
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.linkedin, 'LinkedIn', 'fab fa-linkedin'));
-            linksContainer.appendChild(createLink('https://drive.google.com/file/d/1mSw9JXqLbXRUM1vgh-k2EIgtfrxrdMqs/view?usp=sharing', 'Download Resume', 'fas fa-download'));
+            linksContainer.appendChild(createLink(resumeData.personalInfo.resumeUrl || '#', 'Download Resume', 'fas fa-download'));
         }
 
         // Story
@@ -157,6 +157,21 @@ const App = {
                     <span>${cert}</span>
                 `;
                 certsContainer.appendChild(div);
+            });
+        }
+
+        // Education
+        const eduList = $('educationList');
+        if (eduList && resumeData.education) {
+            resumeData.education.forEach(edu => {
+                const item = document.createElement('div');
+                item.className = 'timeline-item';
+                item.innerHTML = `
+                    <div class="role">${edu.degree}</div>
+                    <div class="company">${edu.school}</div>
+                    <span class="text-muted text-sm">${edu.period}</span>
+                `;
+                eduList.appendChild(item);
             });
         }
 
