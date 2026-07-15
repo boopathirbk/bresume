@@ -61,7 +61,7 @@ const App = {
 
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.github, 'GitHub', 'fab fa-github', true));
             linksContainer.appendChild(createLink(resumeData.personalInfo.social.linkedin, 'LinkedIn', 'fab fa-linkedin'));
-            linksContainer.appendChild(createLink('https://docs.google.com/document/d/1jc2-jMgmZChoW298pwJg89Fzu9FWIqag/edit?usp=sharing&ouid=117646048370708655688&rtpof=true&sd=true', 'Download Resume', 'fas fa-download'));
+            linksContainer.appendChild(createLink('https://drive.google.com/file/d/1lJd_OXuyrSmrfSoLczjaRrIruLQJLyzU/view?usp=sharing', 'Download Resume', 'fas fa-download'));
         }
 
         // Story
@@ -119,7 +119,7 @@ const App = {
 
         // Skills — Color-coded badges
         const skillCategories = [
-            { keywords: ['Windows', 'OS Troubleshooting', 'Microsoft 365'], colorClass: 'badge-sky' },
+            { keywords: ['Windows', 'OS &', 'Microsoft 365'], colorClass: 'badge-sky' },
             { keywords: ['Linux', 'Networking'], colorClass: 'badge-emerald' },
             { keywords: ['Remote', 'Web & Content'], colorClass: 'badge-rose' },
             { keywords: ['AI-Assisted'], colorClass: 'badge-violet' },
@@ -168,6 +168,17 @@ const App = {
                 span.className = 'skill-pill badge-amber';
                 span.textContent = item;
                 interestsContainer.appendChild(span);
+            });
+        }
+
+        // Languages
+        const languagesContainer = $('languagesList');
+        if (languagesContainer && resumeData.languages) {
+            resumeData.languages.forEach(lang => {
+                const span = document.createElement('span');
+                span.className = 'skill-pill badge-violet';
+                span.textContent = lang;
+                languagesContainer.appendChild(span);
             });
         }
 
