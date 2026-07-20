@@ -20,7 +20,7 @@ export const resumeData = {
 
 Over 7+ years, I've grown from remote hosting support into leading a 6-member IT/EUC team at L&T Semiconductor Technologies, supporting 400+ users across India, Japan, and the US. Along the way, I've served as Microsoft 365 Global Admin, managed Azure Active Directory, SharePoint, OneDrive, Cloudflare, DNS, DHCP, and network security across multiple branches and countries.
 
-What sets me apart is that I don't just fix problems — I build solutions. I've independently built 3 proprietary internal tools and 6 live company websites, all currently in active use. I use AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.
+What sets me apart is that I don't just fix problems — I build solutions. I use AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.
 
 I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS and product-based companies.`
     },
@@ -57,8 +57,7 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
                 "Lead a 4-person IT team: task delegation, escalation handling, cross-branch coordination, and IT documentation; introduced and implemented JIRA Service Desk for internal IT ticketing and trained team members on workflow management.",
                 "Administer Yahoo SMB (Turbify) business email — user creation, Outlook and Spark email setup for all staff.",
                 "Used PowerShell to recover deleted SharePoint Online data and to automate personal backup workflows via rclone scripting.",
-                "Independently designed and built 3 proprietary internal tools — an HR background verification portal, an enterprise training and certification platform, and a certificate automation plugin — all in active daily use.",
-                "Built and maintain 6 live company websites on WordPress + Cloudflare + Hostinger, including performance optimisation, SEO, and lead capture.",
+                "Built and maintain websites, including performance optimisation, SEO, and lead capture.",
                 "Produced training videos for internal staff — including digital document signing using Foxit PDF Reader and USB token workflows.",
                 "Leverage AI tools — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build, automate, and optimise internal workflows."
             ]
