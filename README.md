@@ -37,19 +37,6 @@ Built to exceed WCAG 2.1 AA standards, featuring a custom A11y Widget:
 - IT Support Executive & Web Developer — RSJ Inspection Service Ltd.
 - Web Developer & Remote Support Specialist — USA Web Buzi LLC
 
-### Company Websites (6 Live)
-- **[rsjqa.com](https://rsjqa.com)** — Main company website with LiteSpeed, SEO, lead funnels, Umami analytics.
-- **[assure4good.com](https://assure4good.com)** — Sustainability services — GHG, environmental audits, SCA programme.
-- **[course.assure4good.com](https://course.assure4good.com)** — APSCA-approved LMS for SCA training.
-- **[qualpedia.com](https://qualpedia.com)** — Knowledge platform for quality and business excellence.
-- **[blog.rsjqa.com](https://blog.rsjqa.com)** — Company blog on quality, audits, and sustainability.
-- **[zedmsme.com](https://zedmsme.com)** — ZED certification support for MSMEs.
-
-### Internal Tools (3 Proprietary)
-- **HR Background Verification Portal** — Multi-user PHP/MySQL web app with Cloudflare-secured 2FA, role-based access, automated email workflows, and audit trail.
-- **Training & Certification Platform** — WordPress plugin for APSCA-approved training with multi-module quizzes, batch management, QR-coded certificates, and verification registry.
-- **Certificate & Feedback Automation Plugin** — Full certificate lifecycle automation with 3-stage email workflow, feedback collection, and monthly analytics.
-
 ### Open Source Projects (4)
 - **[WinLocksmith](https://github.com/boopathirbk/winlocksmith)** — Free Intune/MDM alternative for Windows 10/11 hardening — Group Policy, Edge kiosk mode, Cloudflare Family DNS, USB blocking.
 - **[WP Bulk Pages Generator](https://github.com/boopathirbk/wp-bulk-pages-generator)** — Bulk create Pages/Posts/CPT via REST API.
