@@ -121,66 +121,6 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
             description: "Reusable filterable Gutenberg block for job listings. 3 GitHub stars.",
             link: "https://github.com/boopathirbk/Job-Listing-WordPress-Block-Plugin",
             tags: ["WordPress", "Gutenberg", "JavaScript"]
-        },
-        {
-            title: "Internal HR Background Verification Portal",
-            description: "Multi-user PHP/MySQL web application replacing a fully manual HR process. Features: Cloudflare-secured 2FA authentication, role-based access (Admin & HR roles), automated email workflows to previous employers, real-time verification tracking, CSV export, and complete audit trail.",
-            link: "",
-            tags: ["PHP", "MySQL", "Cloudflare", "Role-Based Auth", "2FA"]
-        },
-        {
-            title: "Internal Training & Certification Platform",
-            description: "WordPress plugin powering an APSCA-approved professional training programme. Multi-module quiz engine, batch management across multiple cities, automated certificate issuance with QR codes, invite-only access, retake policies, analytics dashboard, and public certificate verification registry.",
-            link: "",
-            tags: ["PHP", "WordPress", "MySQL", "SMTP", "Analytics"]
-        },
-        {
-            title: "Internal Certificate & Feedback Automation Plugin",
-            description: "WordPress plugin managing the full certificate lifecycle for an online professional training course. 3-stage automated email workflow: submission confirmation → admin review → certificate delivery with QR code. Feedback collection with ratings, monthly analytics, and CSV export.",
-            link: "",
-            tags: ["PHP", "WordPress", "Email Automation", "FluentForms"]
-        },
-        {
-            title: "rsjqa.com — RSJ Inspection Service Ltd.",
-            description: "Main company website. LiteSpeed optimised, WebP compression, smart lead capture funnels (email, call, WhatsApp), Umami analytics, full SEO management with SEO Framework and RankMath.",
-            link: "https://rsjqa.com",
-            tags: ["WordPress", "Blocksy", "Cloudflare", "LiteSpeed", "RankMath", "Umami"],
-            companyWebsite: true
-        },
-        {
-            title: "assure4good.com — Sustainability Services",
-            description: "Company sustainability services website — GHG services, environmental audits, SCA programme.",
-            link: "https://assure4good.com",
-            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"],
-            companyWebsite: true
-        },
-        {
-            title: "course.assure4good.com — APSCA-Approved LMS",
-            description: "Full LMS platform for an APSCA-approved SCA training programme.",
-            link: "https://course.assure4good.com",
-            tags: ["WordPress", "Academy LMS", "Masteriyo", "Cloudflare"],
-            companyWebsite: true
-        },
-        {
-            title: "qualpedia.com — Knowledge Platform",
-            description: "Knowledge sharing platform for quality and business excellence experts.",
-            link: "https://qualpedia.com",
-            tags: ["WordPress", "Blocksy", "Hostinger", "Cloudflare"],
-            companyWebsite: true
-        },
-        {
-            title: "blog.rsjqa.com — RSJ Content Blog",
-            description: "Company blog — articles, infographics, videos on quality, audits, and sustainable practices.",
-            link: "https://blog.rsjqa.com",
-            tags: ["WordPress", "Hostinger", "Cloudflare", "SEO Framework"],
-            companyWebsite: true
-        },
-        {
-            title: "zedmsme.com — ZED Certification Support",
-            description: "Website supporting ZED certification assistance for MSMEs.",
-            link: "https://zedmsme.com",
-            tags: ["WordPress", "Hostinger", "Cloudflare"],
-            companyWebsite: true
         }
     ],
     education: [
