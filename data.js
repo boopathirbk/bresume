@@ -28,17 +28,16 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
         {
             role: "IT Support & EUC Lead",
             company: "L&T Semiconductor Technologies (via Micropoint Computers)",
-            period: "June 2026 - Present",
+            period: "June 2026 - July 2026",
             description: [
                 "Lead a 6-member IT/EUC team delivering L2 and L3 end-user support for 400+ users across India, Japan, Austin, Bengaluru, and Noida.",
-                "Administer core Microsoft 365 services — Entra ID user/device groups, Conditional Access, SharePoint Online, OneDrive, and Microsoft Teams — as part of daily M365 administration for 400+ users.",
-                "Designed and executed phase-based rollout of Conditional Access policies across departments via Microsoft Entra ID.",
+                "Administer core Microsoft 365 services — Entra ID user/device groups, phase-based Conditional Access rollout across departments, SharePoint Online, OneDrive, and Microsoft Teams — as part of daily M365 administration for 400+ users.",
                 "Manage software packaging, deployment, and uninstallation for 400+ endpoints via Endpoint Central, including self-service portal catalog management and group-based rollouts using Entra ID device groups.",
                 "Administer deep SharePoint Online configuration, permissions, and troubleshooting alongside OneDrive and Microsoft Teams collaboration support.",
                 "Write and deploy PowerShell scripts for automated software provisioning; perform vulnerability checks on software before deployment and create risk acceptance policy templates for exception-based resource access.",
-                "Troubleshoot BitLocker recovery issues and Blue Screen of Death (BSOD) incidents; support users remotely via endpoint management remote client tools.",
-                "Use LAPS (Local Administrator Password Solution) for secure local admin access during software installs/uninstalls; manage device security posture in Entra ID for group-based package targeting.",
-                "Own onboarding/offboarding lifecycle and laptop performance remediation (resets, slowness fixes) for new and exiting employees.",
+                "Troubleshoot BitLocker recovery and BSOD incidents; support users remotely via endpoint management tools.",
+                "Use LAPS for secure local admin access during software installs; manage device security posture in Entra ID.",
+                "Own onboarding/offboarding lifecycle and laptop performance remediation for new and exiting employees.",
                 "Manage end-to-end ticketing lifecycle (assignment, escalation, closure) and SLA review using GreenITCo and Jira; coordinate with ManageEngine/GreenITCo support for remote desktop and infrastructure troubleshooting, using Confluence for documentation and cross-team knowledge sharing.",
                 "Resolve Microsoft Teams issues (mic, camera, custom app errors) and coordinate with relevant teams on domain SSL issues; set up workstation peripherals (monitors, headsets) for new hires."
             ]
@@ -48,18 +47,17 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
             company: "RSJ Inspection Service Ltd.",
             period: "April 2024 - April 2026",
             description: [
-                "Provide L1–L3 day-to-day technical support to 100+ users across 4 branches — resolving hardware, OS, application, and network issues as first point of contact and escalation.",
-                "Serve as Microsoft 365 Global Admin — user provisioning, MFA, SharePoint administration, OneDrive deployment and backup, Office app deployment, and policy creation.",
-                "Administer Azure Active Directory (Entra ID): access control, group management, licence assignment, and conditional access policies.",
-                "Configure and maintain DNS, DHCP, Cloudflare CDN, SMTP services, and access rules across all branches.",
-                "Extended WiFi coverage across 2 branches with business-grade routers; installed UPS backup power for network continuity.",
-                "Perform hardware servicing — RAM, SSD, HDD replacement; fresh Windows 11 installations via USB; laptop asset management across 4 branches.",
-                "Lead a 4-person IT team: task delegation, escalation handling, cross-branch coordination, and IT documentation; introduced and implemented JIRA Service Desk for internal IT ticketing and trained team members on workflow management.",
-                "Administer Yahoo SMB (Turbify) business email — user creation, Outlook and Spark email setup for all staff.",
-                "Used PowerShell to recover deleted SharePoint Online data and to automate personal backup workflows via rclone scripting.",
-                "Built and maintain websites, including performance optimisation, SEO, and lead capture.",
-                "Produced training videos for internal staff — including digital document signing using Foxit PDF Reader and USB token workflows.",
-                "Leverage AI tools — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build, automate, and optimise internal workflows."
+                "Technical support for 100+ users across 4 branches — hardware, OS, network, and application issues.",
+                "Microsoft 365 Global Admin — SharePoint, OneDrive, Office deployment, user provisioning, MFA, and conditional access policies.",
+                "Azure Active Directory (Entra ID) — access control, group management, licence assignment.",
+                "DNS, DHCP, Cloudflare CDN, SMTP, and firewall configuration across all branches.",
+                "Extended WiFi across 2 branches with business routers; installed UPS backup power for network continuity.",
+                "Hardware servicing — RAM, SSD, HDD replacement; fresh Windows 11 installs via USB; laptop asset management across 4 branches.",
+                "Administer business email — email client setup and configuration for all staff.",
+                "Produced IT training videos for staff and assisted onboarding and offboarding.",
+                "Manage all company social media — LinkedIn, YouTube, Twitter/X, Facebook, Instagram.",
+                "Led 4-person IT team — escalation handling, documentation, cross-branch coordination.",
+                "Leverage Anthropic Claude (Antigravity & claude.ai), Google Gemini, GitHub Copilot for development and automation."
             ]
         },
         {
@@ -81,8 +79,7 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
                 "Administered Microsoft 365 and Azure Active Directory for the full organisation — user lifecycle, device policies, and security configuration.",
                 "Provided L1–L3 organisation-wide IT support: OS troubleshooting, hardware issues, network faults, and application errors.",
                 "Configured Cloudflare CDN, SMTP services, and DNS for optimal performance and email deliverability.",
-                "Used JIRA for IT ticket tracking, issue management, and cross-team task coordination.",
-                "Designed, deployed, and maintained WordPress websites on Dreamhost, Hostinger, and GoDaddy."
+                "Used JIRA for IT ticket tracking, issue management, and cross-team task coordination."
             ]
         },
         {
@@ -137,11 +134,6 @@ I'm currently open to Technical Support Engineer and IT Infrastructure roles at 
             degree: "Secondary School",
             school: "Shree Gurukulam.HR.Sec.School — Erode, Tamil Nadu",
             period: "2011 - 2013"
-        },
-        {
-            degree: "Japanese Language — CJAT1",
-            school: "Hayakawa Japanese Language School & Cultural Center — Chennai, Tamil Nadu",
-            period: "2019 - 2020"
         }
     ],
     certifications: [
