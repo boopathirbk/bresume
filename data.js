@@ -10,7 +10,7 @@ export const resumeData = {
             linkedin: "https://www.linkedin.com/in/boopathirb"
         },
         tagline: "LEAD TECHNICAL SUPPORT ENGINEER · IT INFRASTRUCTURE · MICROSOFT 365 & AZURE AD ADMINISTRATOR",
-        bio: "Customer-focused IT professional with 7+ years of experience in technical support and IT infrastructure management, supporting 400+ users across multiple branches and countries as Microsoft 365 Global Admin. Goes beyond fixing problems — independently built 3 proprietary internal tools and 6 live company websites currently in active use. Ready to bring deep technical ownership, clear communication, and genuine customer focus to any IT, SaaS, or product-based company.",
+        bio: "Customer-focused IT professional with 7+ years of experience in technical support and IT infrastructure management, supporting 400+ users across multiple branches and countries as Microsoft 365 Global Admin. Ready to bring deep technical ownership, clear communication, and genuine customer focus to any IT, SaaS, or product-based company.",
         avatar: "https://avatars.githubusercontent.com/u/22997723?v=4",
         resumeUrl: "https://drive.google.com/file/d/1A9aCdj8QJQD3z6s2ucHgH6CIqwjY0h2Y/view?usp=sharing"
     },
@@ -20,7 +20,7 @@ export const resumeData = {
 
 Over 7+ years, I've grown from remote hosting support into leading a 6-member IT/EUC team at L&T Semiconductor Technologies, supporting 400+ users across India, Japan, and the US. Along the way, I've served as Microsoft 365 Global Admin, managed Azure Active Directory, SharePoint, OneDrive, Cloudflare, DNS, DHCP, and network security across multiple branches and countries.
 
-What sets me apart is that I don't just fix problems — I build solutions. I use AI-assisted development — Anthropic Claude (via Antigravity & claude.ai), Google Gemini, GitHub Copilot — to build and ship faster.
+What sets me apart is that I don't just fix problems —  I document problems and do root cause analysis if it is repeated and avoid it to reduce the ticket volume and improve the user experience.
 
 I'm currently open to Technical Support Engineer and IT Infrastructure roles at global SaaS and product-based companies.`
     },
